@@ -1,10 +1,12 @@
-import React from 'react';
-
 function Home() {
   return (
-    <div style={{ padding: '20px', textAlign: 'center' }}>
-      <h1>Welcome to the Home Page</h1>
-      <p>This component was created using a Function.</p>
+    <div className="content">
+      <h3>Quick Concept Recap:</h3>
+      <ul>
+        <li><strong>BrowserRouter:</strong> Keeps your UI in sync with the URL.</li>
+        <li><strong>Routes & Route:</strong> Map a path to a component.</li>
+        <li><strong>Link:</strong> Used instead of &lt;a&gt; to prevent reload.</li>
+      </ul>
     </div>
   );
 }

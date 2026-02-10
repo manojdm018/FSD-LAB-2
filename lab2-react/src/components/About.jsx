@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import { Component } from "react";
 
 class About extends Component {
   render() {
     return (
-      <div style={{ padding: '20px', textAlign: 'center' }}>
-        <h1>About Us</h1>
-        <p>This component was created using a Class Component.</p>
+      <div className="content">
+        <h2>About Page</h2>
+        <p>This is a Class Component rendered using React Router.</p>
       </div>
     );
   }
