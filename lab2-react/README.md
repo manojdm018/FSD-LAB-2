@@ -1,16 +1,78 @@
-# React + Vite
+# FSD-LAB-2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application project bootstrapped with [Vite](https://vitejs.dev/).
 
-Currently, two official plugins are available:
+## Quick Start from Scratch (with Vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To rebuild this project from scratch for practice:
 
-## React Compiler
+1. **Create a new Vite project:**
+    ```sh
+    npm create latest@vite
+    ```
+    - Choose your framework (e.g., React, Vue, etc.) and language (JavaScript/TypeScript).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Navigate to your project folder:**
+    ```sh
+    cd your-project-name
+    ```
 
-## Expanding the ESLint configuration
+3. **Install dependencies:**
+    ```sh
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **Start the development server:**
+    ```sh
+    npm run dev
+    ```
+
+5. **Build your application code** in the `src` folder.
+
+---
+
+## Project Structure
+
+```
+FSD-LAB-2/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   └── main.jsx / main.tsx
+├── index.html
+├── package.json
+├── vite.config.js / vite.config.ts
+└── README.md
+```
+
+## Features
+
+- Fast development with Vite
+- Modern JavaScript/TypeScript support
+- Hot Module Replacement (HMR)
+- [Add your project-specific features here]
+
+## Scripts
+
+- `npm run dev` – Start the development server
+- `npm run build` – Build for production
+- `npm run preview` – Preview the production build
+
+## Customization
+
+- Edit `src/` for your application code.
+- Add components in `src/components/`.
+- Place static assets in `public/`.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+*Refer to this README whenever you want to practice rebuilding or understanding the project structure!*
+
+
+Output
+![alt text](image.png)
